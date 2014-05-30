@@ -1,0 +1,116 @@
+[
+	{ 
+		"caption": "Go to definition", 
+		"command": "robot_go_to_keyword" 
+	}
+	, { 
+		"caption": "Find references", 
+		"command": "robot_find_references" 
+	}
+	, { 
+		"caption": "Replace references", 
+		"command": "prompt_robot_replace_references" 
+	}
+	, { 
+		"caption": "Run test", 
+		"command": "robot_run_test" 
+	}
+	, { 
+		"caption": "Run test suite", 
+		"command": "robot_run_test_suite" 
+	}
+	, { 
+		"caption": "Run...", 
+		"command": "robot_run_panel"
+	}
+	, { 
+		"caption": "Code Snippets", 
+		"children":
+		[
+			{
+               "caption": "*** Settings ***",
+                "command": "insert_snippet",
+                "args": {
+                    "name": "Packages/Robot Framework/Snippets/heading-settings.sublime-snippet"
+					}		
+			}
+			,{
+               "caption": "*** Variables ***",
+                "command": "insert_snippet",
+                "args": {
+                    "name": "Packages/Robot Framework/Snippets/heading-variables.sublime-snippet"
+					}		
+			}
+			,{
+               "caption": "*** Test Cases ***",
+                "command": "insert_snippet",
+                "args": {
+                    "name": "Packages/Robot Framework/Snippets/heading-testcases.sublime-snippet"
+					}		
+			}
+			,{
+               "caption": "*** Keywords ***",
+                "command": "insert_snippet",
+                "args": {
+                    "name": "Packages/Robot Framework/Snippets/heading-keywords.sublime-snippet"
+					}		
+			}
+			,{
+               "caption": "[DOCUMENTATION]",
+                "command": "insert_snippet",
+                "args": {
+                    "name": "Packages/Robot Framework/Snippets/documentation.sublime-snippet"
+					}		
+			}
+			,{
+               "caption": "[Arguments]",
+                "command": "insert_snippet",
+                "args": {
+                    "name": "Packages/Robot Framework/Snippets/arguments.sublime-snippet"
+					}		
+			}
+			,{
+               "caption": ":FOR Loop",
+                "command": "insert_snippet",
+                "args": {
+                    "name": "Packages/Robot Framework/Snippets/forloop.sublime-snippet"
+					}		
+			}
+			,{
+               "caption": ":FOR Loop in Range",
+                "command": "insert_snippet",
+                "args": {
+                    "name": "Packages/Robot Framework/Snippets/forloopinrange.sublime-snippet"
+					}		
+			}
+			,{
+               "caption": "Import OperatingSystem",
+                "command": "insert_snippet",
+                "args": {
+                    "name": "Packages/Robot Framework/Snippets/library-operatingsystem.sublime-snippet"
+					}		
+			}
+			,{
+               "caption": "Import Selenium2Library",
+                "command": "insert_snippet",
+                "args": {
+                    "name": "Packages/Robot Framework/Snippets/library-selenium2library.sublime-snippet"
+					}		
+			}
+			,{
+               "caption": "Import JSON Library",
+                "command": "insert_snippet",
+                "args": {
+                    "name": "Packages/Robot Framework/Snippets/library-json.sublime-snippet"
+					}		
+			}
+			,{
+               "caption": "Import XML Library",
+                "command": "insert_snippet",
+                "args": {
+                    "name": "Packages/Robot Framework/Snippets/library-xml.sublime-snippet"
+					}		
+			}
+		]
+	}
+]
